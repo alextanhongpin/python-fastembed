@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-fastembed"
+version = "0.1.0"
+description = ""
+authors = ["alextanhongpin <alextan220990@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9.0,<3.12"
+jupyterlab = "^4.0.9"
+numpy = "^1.26.2"
+fastembed = "^0.1.1"
+mteb = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
